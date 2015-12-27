@@ -18,7 +18,12 @@ To run this project on your local machine follow these instructions:
 
 6. Run the script bookstore.sql
 
-7. Open the project using Netbeans and run it. 
+7. Open the project using Netbeans.
+
+8. Add latest PostgreSQL JDBC Driver using Netbeans.
+
+9. Run the project. 
+
 _________________________________________________________________________________________________________________________
 
 Contacts:
