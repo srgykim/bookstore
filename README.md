@@ -1,4 +1,4 @@
-# bookstore
+# bookstore (Available at: https://bookstore-srgykim.rhcloud.com/)
 Online shopping system (bookstore) implemented using Java Servlets, JSP, Apache Tomcat.
 
 To run this project on your local machine follow these instructions:
