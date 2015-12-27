@@ -1,0 +1,73 @@
+/* 
+	Document   : layout.css
+    Author     : Sergey Kim
+*/
+
+#header {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 82%;
+    padding: 10px;
+    background: #16a085;
+    border: 3px solid #ecf0f1;
+}
+
+#userForm {
+	position: absolute;
+    left: 80%;
+    right: 1%;
+    top: 0%;
+    padding: 20px;
+}
+
+#form {
+    position: absolute;
+    left: 20%;
+    right:12%;
+    top: 22%;
+    padding: 20px;
+    background: #ecf0f1;
+    border: 3px solid #2c3e50;
+}
+
+#cart {
+    position: absolute;
+    left: 89%;
+    right: 1%;
+    top: 22%;
+    padding: 20px;
+    background: #2c3e50;
+    border: 3px solid #ecf0f1;
+}
+
+#categories {
+    position: absolute;
+    left: 0.5%;
+    right:81%;
+    top: 22%;
+    padding: 20px;
+    background: #16a085;
+    border: 3px solid #2c3e50;
+}
+
+a {
+    text-decoration: none;
+}
+
+table.solid {
+    border: 3px solid #2c3e50;
+    border-collapse: collapse;
+}
+
+.linkButton { 
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-family: timesnewroman;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer; 
+}
