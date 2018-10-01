@@ -15,14 +15,17 @@ public class CustomerLogoutController extends HttpServlet {
     
     public void doPost (HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
-    	// Get session
-    	HttpSession session = request.getSession();
+        try {                                      // try-catch block added
     	
-    	// End session
-		session.invalidate();
-		
-		response.sendRedirect(request.getContextPath() + "/index.jsp");
+    	HttpSession session = request.getSession(); // Get session
+    	
+       session.invalidate(); // End session
+	response.sendRedirect(request.getContextPath() + "/index.jsp");
+	}
+	    catch(Exception e)                    
+	    {
+		    System.out.println(e);
+	    }
     }
     
 }
